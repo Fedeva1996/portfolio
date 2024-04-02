@@ -14,6 +14,9 @@ header {
   color: #fff;
   padding: 5px;
   text-align: center;
+  & a:hover {
+    text-decoration: underline;
+  }
 }
 section {
   & h2 {
