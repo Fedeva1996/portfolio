@@ -1,0 +1,87 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+.container {
+  margin: auto;
+  padding: 20px;
+  max-width: 50%;
+  align-content: center;
+}
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+}
+section {
+  & h2 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+  }
+}
+
+.sobre-mi-contenido {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 1250px) {
+  .sobre-mi-contenido {
+    display: block;
+  }
+}
+header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  box-shadow: 0 1px 8px #ddd;
+  & a{
+    color: #fff;
+  }
+}
+#nav-title {
+  margin-right: auto;
+  font-size: 1.5em;
+}
+.proyecto {
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  & div {
+    line-height: 3rem;
+    font-size: 2rem;
+  }
+}
+
+.foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  margin-right: 20px;
+}
+
+a {
+  color: #d2691e;
+  text-decoration: none;
+}
+a:hover {
+  color: #3199a3;
+  transition: 0.1s ease-in-out;
+}
+
+.bi {
+  margin: 0.5rem;
+  display: inline-block;
+}
+.bi:hover {
+  font-size: 2.2rem;
+  transition: 0.1s ease-in-out;
+}
